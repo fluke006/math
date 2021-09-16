@@ -1,0 +1,129 @@
+body{
+   background-color: blue;
+}
+
+.container{
+   width: 100%;
+   max-width: 1240px;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+.hero__heading{
+   display: block;
+   margin: 0;
+   margin-bottom: 75px;
+   font-size: 48px;
+   color: #fff;
+   text-align: center;
+}
+
+.form__box{
+   width: 700px;
+   display: flex;
+   justify-content: space-around;
+   margin: 0 auto;
+   margin-bottom: 60px;
+}
+
+.form__label{
+   display: block;
+   font-size: 24px;
+   color: white;
+}
+
+.input{
+   display: inline-block;
+   width: 200px;
+   height: 20px;
+   margin-left: 20px;
+   padding: 5px;
+}
+
+.error{
+   margin: 0;
+   margin-left: 10px;
+   font-size: 18px;
+   color: red;
+}
+
+.btn{
+   display: block;
+   width: 120px;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   background-color: red;
+}
+
+.btn:hover{
+   opacity: 0.7;
+}
+
+.btn:active{
+   background-color: dimgray;
+}
+
+.hero__list{
+   display: flex;
+   justify-content: space-between;
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+
+.hero__item{
+   width: 250px;
+   align-items: center;
+   padding: 20px;
+   border: 2px solid #fff;
+   border-radius: 10px;
+   background-color: lightseagreen;
+}
+
+.fas{
+   display: block;
+   margin: 0 auto;
+   margin-bottom: 20px;
+   font-size: 72px;
+   text-align: center;
+}
+
+.item__heading{
+   margin: 0;
+   margin-bottom: 24px;
+   font-size: 24px;
+   text-align: center;
+}
+
+.onfoot_result{
+   display: block;
+   padding: 10px;
+   font-size: 18px;
+   text-align: center;
+}
+
+.bike_result{
+   display: block;
+   padding: 10px;
+   font-size: 18px;
+   text-align: center;
+}
+
+
+.car_result{
+   display: block;
+   padding: 10px;
+   font-size: 18px;
+   text-align: center;
+}
+
+
+.plane_result{
+   display: block;
+   padding: 10px;
+   font-size: 18px;
+   text-align: center;
+}
+
+
